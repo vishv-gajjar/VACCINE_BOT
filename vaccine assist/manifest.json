@@ -1,0 +1,13 @@
+{
+    "name": "VaccAssist",
+    "description": "Automate your slot booking process on cowin with VaccAssist!",
+    "version": "3.0",
+    "manifest_version": 3,
+    "background": {
+      "service_worker": "background.js"
+    },
+    "permissions": ["storage", "activeTab", "scripting", "tabs"],
+    "action": {
+        "default_popup": "popup.html"
+    }
+}
